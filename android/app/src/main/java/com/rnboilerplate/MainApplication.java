@@ -1,4 +1,4 @@
-package com.simplechat;
+package com.rnboilerplate;
 
 import android.app.Application;
 
