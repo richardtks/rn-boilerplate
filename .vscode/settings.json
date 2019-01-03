@@ -1,0 +1,8 @@
+{
+  "prettier.eslintIntegration": true,
+  // available through eslint plugin in vscode
+  "eslint.autoFixOnSave": true,
+  "eslint.alwaysShowStatus": true,
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2
+}
