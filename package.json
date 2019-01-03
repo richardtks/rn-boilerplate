@@ -12,6 +12,7 @@
   },
   "devDependencies": {
     "babel-jest": "23.6.0",
+    "enzyme": "^3.8.0",
     "eslint": "^5.3.0",
     "eslint-config-airbnb": "17.1.0",
     "eslint-config-prettier": "^3.3.0",
@@ -31,11 +32,11 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged & yarn test"
+      "pre-commit": "lint-staged && yarn test"
     }
   },
   "lint-staged": {
-    "*.js": [
+    "*.{js,jsx}": [
       "eslint --fix",
       "git add"
     ]
